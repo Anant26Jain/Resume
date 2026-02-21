@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional resume of Anant Kumar Jain — Data Engineer with 7+ years of experience in SQL, Snowflake, and Cloud Data Platforms.">
+    <title>Anant Kumar Jain | Data Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Cursor glow effect -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>AKJ<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-content">
+            <div class="hero-badge animate-in">
+                <span class="badge-dot"></span>
+                Available for opportunities
+            </div>
+            <h1 class="hero-title animate-in">
+                Hi, I'm <span class="gradient-text">Anant Kumar Jain</span>
+            </h1>
+            <p class="hero-subtitle animate-in">
+                <span class="typewriter" id="typewriter"></span><span class="typewriter-cursor">|</span>
+            </p>
+            <p class="hero-description animate-in">
+                Building robust data pipelines and cloud-native warehousing solutions.
+                I transform raw data into actionable insights with Snowflake, SQL, and modern ETL architectures.
+            </p>
+            <div class="hero-actions animate-in">
+                <a href="#contact" class="btn btn-primary">
+                    <span>Get In Touch</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </a>
+                <a href="#experience" class="btn btn-secondary">
+                    <span>View Experience</span>
+                </a>
+            </div>
+            <div class="hero-stats animate-in">
+                <div class="stat">
+                    <span class="stat-number" data-count="7">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="5">0</span><span class="stat-plus"></span>
+                    <span class="stat-label">Certifications</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="3">0</span><span class="stat-plus"></span>
+                    <span class="stat-label">Awards</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">01 / About</span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>
+                        I'm a <strong>Data Engineer</strong> with over 7 years of hands-on experience
+                        in building robust data pipelines, CDC architectures, and cloud-native
+                        data platforms. I specialize in <strong>Snowflake</strong>, <strong>SQL</strong>,
+                        and <strong>Python</strong>, delivering scalable ETL/ELT solutions and
+                        analytics-ready data products.
+                    </p>
+                    <p>
+                        Currently at <strong>Fidelity International</strong>, I engineer Change Data Capture
+                        pipelines using Streams, Tasks, and Snowpipe, build serverless data apps on AWS,
+                        and automate infrastructure provisioning with Terraform. I've worked across
+                        the full data stack — from ingestion and transformation to orchestration and deployment.
+                    </p>
+                    <p>
+                        I'm passionate about leveraging cloud data platforms and modern engineering
+                        practices to solve real-world business challenges, and I'm always exploring
+                        new approaches to data engineering and automation.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Location</span>
+                            <span class="detail-value">India</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Email</span>
+                            <span class="detail-value">anant26kumarjain@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Phone</span>
+                            <span class="detail-value">8191952303 / 8868921440</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Languages</span>
+                            <span class="detail-value">English, Hindi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image reveal">
+                    <div class="image-frame">
+                        <div class="image-placeholder">
+                            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <circle cx="12" cy="8" r="4" />
+                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                            </svg>
+                            <span>Your Photo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">02 / Skills</span>
+                <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                            </svg>
+                        </div>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Snowflake</span>
+                        <span class="skill-tag">Teradata v16</span>
+                        <span class="skill-tag">Oracle 11g</span>
+                        <span class="skill-tag">Data Warehousing</span>
+                        <span class="skill-tag">Dimensional Modeling</span>
+                        <span class="skill-tag">Snowflake Schema</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="16 18 22 12 16 6" />
+                                <polyline points="8 6 2 12 8 18" />
+                            </svg>
+                        </div>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">PL/SQL</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Markdown</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                                <path d="M2 17l10 5 10-5" />
+                                <path d="M2 12l10 5 10-5" />
+                            </svg>
+                        </div>
+                        <h3>Cloud & Data Platforms</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Snowflake Cloud</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Microsoft Azure</span>
+                        <span class="skill-tag">ETL / ELT</span>
+                        <span class="skill-tag">CDC Pipelines</span>
+                        <span class="skill-tag">Snowpipe</span>
+                        <span class="skill-tag">Streams & Tasks</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
+                            </svg>
+                        </div>
+                        <h3>Tools & DevOps</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">JIRA</span>
+                        <span class="skill-tag">SQL Assistant</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">SnowSQL CLI</span>
+                        <span class="skill-tag">Sonar</span>
+                        <span class="skill-tag">HPALM</span>
+                        <span class="skill-tag">QTest</span>
+                        <span class="skill-tag">Codelabs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">03 / Experience</span>
+                <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">Data Engineer</h3>
+                                <span class="timeline-company">Fidelity International</span>
+                            </div>
+                            <span class="timeline-date">Feb 2022 — Present</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Developed Change Data Capture pipelines on Snowflake using Streams, Tasks, and Snowpipe
+                            </li>
+                            <li>Implemented SCD Type 2 in Snowflake for maintaining historical data</li>
+                            <li>Performed SQL performance tuning to optimize querying and loading in data warehouse</li>
+                            <li>Created data apps and serverless solutions to host CSV upload functionality</li>
+                            <li>Developed Stored Procedures in Snowflake to implement complex business logic</li>
+                            <li>Performed Unit testing and creation of test cases; used HPALM and QTest tools</li>
+                            <li>Worked on Stargate-based solutions with Snowflake and Star/Snowflake schema</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Snowflake</span><span>SQL</span><span>CDC</span><span>Snowpipe</span><span>SCD Type
+                                2</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">Data Engineer — COE</h3>
+                                <span class="timeline-company">Mindtree</span>
+                            </div>
+                            <span class="timeline-date">Jul 2021 — Feb 2022</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Created Insurance Use Case Model for Snowflake</li>
+                            <li>Analyzed different workflows in Snowflake across varying warehouse sizes for efficiency
+                                benchmarking</li>
+                            <li>Wrote Stored Procedures in Snowflake</li>
+                            <li>Implemented SCD Type 2 in Snowflake for historical data tracking</li>
+                            <li>Created Continuous Data Capture flow pipeline in Snowflake</li>
+                            <li>Worked on Tasks and Streams for data pipeline orchestration</li>
+                            <li>Ingested data from Kafka Confluent cluster to Snowflake</li>
+                            <li>Worked on Semi-Structured Data in Snowflake</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Snowflake</span><span>CDC</span><span>Kafka</span><span>SCD Type 2</span><span>Stored
+                                Procedures</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">Warehouse Engineer</h3>
+                                <span class="timeline-company">Capgemini</span>
+                            </div>
+                            <span class="timeline-date">Jul 2018 — Jun 2021</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Built warehousing solution for a Bank — loading data across Staging, Core &amp; SBSL
+                                layers</li>
+                            <li>Created ETL scripts and loaded data into Core Layer based on Teradata FSLDM model</li>
+                            <li>Implemented SCD Type 1 and Type 2 dimensions with business logic</li>
+                            <li>Created and analyzed Data Lineage for Forbearance Dimension</li>
+                            <li>Part of Data Modelling team designing new solutions for Data Warehouse</li>
+                            <li>Performed SQL performance tuning to optimize querying and loading</li>
+                            <li>Worked in Agile environment using JIRA; used HPALM and QTest for testing</li>
+                            <li>Used Git and Bitbucket for version control and code deployment</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Teradata</span><span>ETL</span><span>Data
+                                Modeling</span><span>PL/SQL</span><span>JIRA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Achievements Section -->
+    <section class="section section-alt" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">04 / Certifications & Achievements</span>
+                <h2 class="section-title">Certifications & <span class="gradient-text">Achievements</span></h2>
+            </div>
+            <div class="certs-grid">
+                <!-- Certifications -->
+                <div class="cert-card reveal">
+                    <div class="cert-badge cert-badge-aws">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                            <path d="M2 17l10 5 10-5" />
+                            <path d="M2 12l10 5 10-5" />
+                        </svg>
+                    </div>
+                    <div class="cert-info">
+                        <h3>AWS Certified Cloud Practitioner</h3>
+                        <span class="cert-date">October 2022</span>
+                        <a href="https://www.credly.com/badges/1b3c05ed-d957-4c68-8a19-52c80fd94b22/public_url"
+                            target="_blank" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-badge cert-badge-azure">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                            <path d="M2 17l10 5 10-5" />
+                            <path d="M2 12l10 5 10-5" />
+                        </svg>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Microsoft Azure Data Fundamentals</h3>
+                        <span class="cert-date">October 2021</span>
+                        <a href="https://www.credly.com/badges/b3167466-7f77-42cd-8f20-8c3e404425b7/public_url"
+                            target="_blank" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-badge cert-badge-snow">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M12 2v20M17 5l-5 5-5-5M7 19l5-5 5 5M2 12h20M5 7l5 5-5 5M19 17l-5-5 5-5" />
+                        </svg>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Snowflake SnowPro Core Certification</h3>
+                        <span class="cert-date">July 2021</span>
+                        <a href="https://www.credly.com/badges/9ebf7b12-4ea9-410d-a324-cb6be22b1704/public_url"
+                            target="_blank" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-badge cert-badge-snow">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M12 2v20M17 5l-5 5-5-5M7 19l5-5 5 5M2 12h20M5 7l5 5-5 5M19 17l-5-5 5-5" />
+                        </svg>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Snowflake Hands On Essentials — Data Warehouse Badge</h3>
+                        <span class="cert-date">January 2021</span>
+                        <a href="https://www.youracclaim.com/badges/1b65546a-6b37-4466-a4a3-e083028300f4"
+                            target="_blank" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-badge cert-badge-oracle">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <ellipse cx="12" cy="5" rx="9" ry="3" />
+                            <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                        </svg>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Oracle Database SQL Certified Associate</h3>
+                        <span class="cert-date">October 2018</span>
+                        <a href="https://www.youracclaim.com/badges/03e3c5bb-bbae-4f42-814c-90f1358d3000"
+                            target="_blank" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="achievements-section">
+                <h3 class="achievements-title reveal">🏆 Achievements</h3>
+                <div class="achievements-grid">
+                    <div class="achievement-card reveal">
+                        <div class="achievement-icon">⭐</div>
+                        <div>
+                            <h4>Rising Star Award</h4>
+                            <span>Q3 2020</span>
+                        </div>
+                    </div>
+                    <div class="achievement-card reveal">
+                        <div class="achievement-icon">👏</div>
+                        <div>
+                            <h4>Pat on Back Award</h4>
+                            <span>Q4 2020</span>
+                        </div>
+                    </div>
+                    <div class="achievement-card reveal">
+                        <div class="achievement-icon">🥇</div>
+                        <div>
+                            <h4>Gold Badge in SQL</h4>
+                            <span>HackerRank</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">05 / Education</span>
+                <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+            </div>
+            <div class="education-grid">
+                <div class="education-card reveal">
+                    <div class="edu-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                            <path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5" />
+                        </svg>
+                    </div>
+                    <div class="edu-details">
+                        <h3>Bachelor of Technology</h3>
+                        <span class="edu-school">Computer Science</span>
+                        <span class="edu-info">August 2014 — May 2018</span>
+                        <p class="edu-description">
+                            Graduated with <strong>7.78 CPI</strong> (till 8th Semester). Focused on
+                            computer science fundamentals, database management systems, data structures,
+                            and software engineering.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">06 / Contact</span>
+                <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                <p class="section-subtitle">
+                    Have a data engineering challenge or just want to connect?
+                    I'd love to hear from you.
+                </p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:anant26kumarjain@gmail.com">anant26kumarjain@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.11 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <span>8191952303 / 8868921440</span>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <span>India</span>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z" />
+                                <rect x="2" y="9" width="4" height="12" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="#">Connect on LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form reveal" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="formName" placeholder=" " required>
+                        <label for="formName">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="formEmail" placeholder=" " required>
+                        <label for="formEmail">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="formSubject" placeholder=" ">
+                        <label for="formSubject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="formMessage" rows="5" placeholder=" " required></textarea>
+                        <label for="formMessage">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13" />
+                            <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#hero" class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>AKJ<span class="logo-bracket">/&gt;</span>
+                </a>
+                <p class="footer-text">Designed & Built with ❤️</p>
+                <p class="footer-copyright">&copy; 2026 Anant Kumar Jain. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
