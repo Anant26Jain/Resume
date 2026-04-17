@@ -5,7 +5,7 @@ const navLinks = document.getElementById('navLinks');
 const cursorGlow = document.getElementById('cursorGlow');
 const heroParticles = document.getElementById('heroParticles');
 const typewriterEl = document.getElementById('typewriter');
-const contactForm = document.getElementById('contactForm');
+
 
 // ===== Typewriter Effect =====
 const typewriterTexts = [
@@ -213,24 +213,7 @@ particleStyle.textContent = `
 document.head.appendChild(particleStyle);
 createParticles();
 
-// ===== Contact Form =====
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
 
-    const btn = contactForm.querySelector('button');
-    const originalText = btn.innerHTML;
-
-    btn.innerHTML = `
-        <span>Message Sent! ✓</span>
-    `;
-    btn.style.background = 'linear-gradient(135deg, #22c55e, #06b6d4)';
-
-    setTimeout(() => {
-        btn.innerHTML = originalText;
-        btn.style.background = '';
-        contactForm.reset();
-    }, 3000);
-});
 
 // ===== Smooth scroll for anchor links =====
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
